@@ -1,0 +1,60 @@
+
+.formdiv{
+    width: 400px;
+    margin:6em auto;
+    background-color: lightgrey;
+    border-radius: 5px;
+    padding: 2em 5em;
+}
+label,input{
+    padding: 5px 5px;
+    
+}
+input{
+    border: none;
+    background-color: none;
+    border-radius: 7px;
+    outline: none;
+    box-shadow: 0px 0px 2px 2px;
+}
+input:active{
+    border: none;
+    inset: none;
+    box-shadow: 0px 0px 2px 2px;
+}
+
+input::first-line{
+    border: none;
+    background-color: transparent;
+}
+input:hover{
+background-color: black;
+color: white;
+border: none;
+border-radius: 10px;
+
+}
+
+button{
+    padding: 0.3em;
+    border-radius:0.5em;
+    border: 0px;
+}
+.footerlink a{
+    text-decoration: none;
+    color: #FFF;
+}
+.arrowup{
+    color: #FFF;
+    padding: 0.2em;
+    font-size: x-large;
+    text-align: end;
+    scroll-behavior: smooth;
+}
+footer{
+    width: 100%;
+    padding: 1em;
+    margin-top: 1em;
+    background-color: #505050;
+    color: white;
+}
